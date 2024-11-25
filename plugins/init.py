@@ -2,8 +2,8 @@
 
 import asyncio
 import config
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import get_assistant
+from LOVEMUSIC import app
+from LOVEMUSIC.utils.database import get_assistant
 AUTO = True
 ADD_INTERVAL = 200
 
