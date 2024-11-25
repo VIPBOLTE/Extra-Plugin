@@ -1,12 +1,12 @@
 from pyrogram import Client, enums, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery, ChatPermissions, Message
-from VIPMUSIC import app
-from VIPMUSIC.misc import SUDOERS
+from LOVEMUSIC import app
+from LOVEMUSIC.misc import SUDOERS
 import asyncio
-from VIPMUSIC.misc import SUDOERS
+from LOVEMUSIC.misc import SUDOERS
 from pyrogram import Client, filters, enums
 from pyrogram.types import Message
-from VIPMUSIC.utils.database import get_assistant
+from LOVEMUSIC.utils.database import get_assistant
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant, ChatAdminRequired
 from pyrogram.types import Message, ChatPrivileges
 import asyncio
