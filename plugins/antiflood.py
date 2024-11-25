@@ -1,5 +1,5 @@
-from VIPMUSIC import app
-from VIPMUSIC.core.mongo import mongodb
+from LOVEMUSIC import app
+from LOVEMUSIC.core.mongo import mongodb
 from pyrogram import filters
 from pyrogram.types import Message
 from datetime import datetime, timedelta
