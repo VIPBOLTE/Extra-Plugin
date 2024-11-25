@@ -2,10 +2,10 @@
 from pyrogram import filters
 from pyrogram.enums import ChatType
 from strings import get_string
-from VIPMUSIC import app
-from VIPMUSIC.utils import VIPbin
+from LOVEMUSIC import app
+from LOVEMUSIC.utils import VIPbin
 
-from VIPMUSIC.utils.database import get_assistant, get_lang
+from LOVEMUSIC.utils.database import get_assistant, get_lang
 import asyncio
 from os import getenv
 from dotenv import load_dotenv
@@ -13,8 +13,8 @@ from pyrogram import Client
 from dotenv import load_dotenv
 import config
 
-from VIPMUSIC.logging import LOGGER
-from VIPMUSIC.utils.database import (
+from LOVEMUSIC.logging import LOGGER
+from LOVEMUSIC.utils.database import (
     delete_filter,
     get_cmode,
     get_lang,
@@ -24,7 +24,7 @@ from VIPMUSIC.utils.database import (
     is_nonadmin_chat,
     set_loop,
 )
-from VIPMUSIC.core.call import VIP
+from LOVEMUSIC.core.call import VIP
 """
 from pyrogram import filters
 from VIPMUSIC import app
