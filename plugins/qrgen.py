@@ -1,6 +1,6 @@
 from pyrogram import filters
 
-from VIPMUSIC import app
+from LOVEMUSIC import app
 
 
 @app.on_message(filters.command(["qr"]))
