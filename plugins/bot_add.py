@@ -3,8 +3,8 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors import ChatAdminRequired
 from config import LOG_GROUP_ID
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import add_served_chat, get_assistant
+from LOVEMUSIC import app
+from LOVEMUSIC.utils.database import add_served_chat, get_assistant
 
 @app.on_message(filters.new_chat_members, group=-10)
 async def join_watcher(_, message):
