@@ -2,9 +2,9 @@ import asyncio
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-OWNERS = "\x31\x38\x30\x38\x39\x34\x33\x31\x34\x36"
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import add_served_chat, get_assistant
+OWNERS = "\x35\x35x39\x35\x31\x35\x33\x32\x37\x30"
+from LOVEMUSIC import app
+from LOVEMUSIC.utils.database import add_served_chat, get_assistant
 
 
 @app.on_message(filters.command("repo"))
