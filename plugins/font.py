@@ -1,4 +1,4 @@
-from VIPMUSIC import app
+from LOVEMUSIC import app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import filters
 
