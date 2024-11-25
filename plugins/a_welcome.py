@@ -7,8 +7,8 @@ from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFont
 from pyrogram import enums, filters
 from pyrogram.types import ChatMemberUpdated
 
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import get_assistant
+from LOVEMUSIC import app
+from LOVEMUSIC.utils.database import get_assistant
 from pymongo import MongoClient
 from config import MONGO_DB_URI
 
