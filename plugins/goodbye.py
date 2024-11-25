@@ -9,10 +9,10 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
     Message,
 )
-from VIPMUSIC import app
-from VIPMUSIC.misc import SUDOERS
+from LOVEMUSIC import app
+from LOVEMUSIC.misc import SUDOERS
 from .notes import extract_urls
-from VIPMUSIC.utils.database import is_gbanned_user
+from LOVEMUSIC.utils.database import is_gbanned_user
 from utils import (
     del_goodbye,
     get_goodbye,
@@ -22,8 +22,8 @@ from utils import (
     set_greetings_off,
 )
 from utils.error import capture_err
-from VIPMUSIC.utils.functions import check_format, extract_text_and_keyb
-from VIPMUSIC.utils.keyboard import ikb
+from LOVEMUSIC.utils.functions import check_format, extract_text_and_keyb
+from LOVEMUSIC.utils.keyboard import ikb
 from utils.permissions import adminsOnly
 
 
