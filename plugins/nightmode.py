@@ -7,8 +7,8 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
 )
 
-from VIPMUSIC import app
-from VIPMUSIC.utils.nightmodedb import (
+from LOVEMUSIC import app
+from LOVEMUSIC.utils.nightmodedb import (
     get_nightchats,
     nightdb,
     nightmode_off,
