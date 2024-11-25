@@ -5,9 +5,9 @@ from pyrogram import filters
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 
-from VIPMUSIC import app
-from VIPMUSIC.utils.afkdb import add_afk, is_afk, remove_afk
-from VIPMUSIC.utils.readable_time import get_readable_time
+from LOVEMUSIC import app
+from LOVEMUSIC.utils.afkdb import add_afk, is_afk, remove_afk
+from LOVEMUSIC.utils.readable_time import get_readable_time
 
 
 @app.on_message(filters.command(["afk", "brb"], prefixes=["/", "!"]))
