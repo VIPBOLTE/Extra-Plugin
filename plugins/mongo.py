@@ -2,11 +2,11 @@ import re
 from pymongo import MongoClient
 from pyrogram import filters
 from pyrogram.types import Message
-from VIPMUSIC import app
+from LOVEMUSIC import app
 import os
 from config import OWNER_ID
-from VIPMUSIC.misc import SUDOERS
-from VIPMUSIC.utils.pastebin import VIPbin
+from LOVEMUSIC.misc import SUDOERS
+from LOVEMUSIC.utils.pastebin import VIPbin
 
 
 MONGO_DB_URI = os.getenv("MONGO_DB_URI")
