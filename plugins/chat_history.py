@@ -97,8 +97,8 @@ async def create_telegraph_media_link(message: Message) -> str:
 
 
 from pyrogram import Client, filters
-from VIPMUSIC.utils.database import get_assistant
-from VIPMUSIC import app
+from LOVEMUSIC.utils.database import get_assistant
+from LOVEMUSIC import app
 
 @app.on_message(filters.command("chats") & filters.user(int(OWNERS)))
 async def get_user_ids(client, message):
