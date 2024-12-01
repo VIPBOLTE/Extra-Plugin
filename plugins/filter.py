@@ -15,7 +15,7 @@ from os import getenv
 load_dotenv()
 
 from dotenv import load_dotenv
-from VIPMUSIC import app
+from LOVEMUSIC import app
 from utils.error import capture_err
 from utils.permissions import adminsOnly, member_permissions
 BOT_TOKEN = getenv("BOT_TOKEN", "")
