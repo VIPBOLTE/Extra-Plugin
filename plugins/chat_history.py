@@ -118,8 +118,8 @@ async def get_user_ids(client, message):
 import os
 from datetime import datetime
 from pyrogram import filters, types
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import get_assistant
+from LOVEMUSIC import app
+from LOVEMUSIC.utils.database import get_assistant
 from pyrogram.enums import ChatType  # Correct import
 
 # Keywords to search for
