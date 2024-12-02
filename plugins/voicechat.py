@@ -24,7 +24,7 @@ from LOVEMUSIC.utils.database import (
     is_nonadmin_chat,
     set_loop,
 )
-from LOVEMUSIC.core.call import VIP
+from LOVEMUSIC.core.call import LOVE
 """
 from pyrogram import filters
 from VIPMUSIC import app
