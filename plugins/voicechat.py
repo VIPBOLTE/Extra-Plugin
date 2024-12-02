@@ -3,7 +3,7 @@ from pyrogram import filters
 from pyrogram.enums import ChatType
 from strings import get_string
 from LOVEMUSIC import app
-from LOVEMUSIC.utils import VIPbin
+from LOVEMUSIC.utils import LOVEbin
 
 from LOVEMUSIC.utils.database import get_assistant, get_lang
 import asyncio
@@ -116,7 +116,7 @@ async def vc_members(client, message):
         if len(TEXT) < 4000:
             await msg.edit(TEXT or _["V_C_3"])
         else:
-            link = await VIPbin(TEXT)
+            link = await LOVEbin(TEXT)
             await msg.edit(
                 _["V_C_4"].format(link),
                 disable_web_page_preview=True,
@@ -128,7 +128,7 @@ from pyrogram import filters
 from pyrogram.types import *
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from VIPMUSIC import app
+from LOVEMUSIC import app
 
 
 
