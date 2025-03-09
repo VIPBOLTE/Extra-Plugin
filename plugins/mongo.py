@@ -6,7 +6,7 @@ from LOVEMUSIC import app
 import os
 from config import OWNER_ID
 from LOVEMUSIC.misc import SUDOERS
-from LOVEMUSIC.utils.pastebin import VIPbin
+from LOVEMUSIC.utils.pastebin import LOVEbin
 
 
 MONGO_DB_URI = os.getenv("MONGO_DB_URI")
@@ -33,7 +33,7 @@ async def mongo_check_command(client, message: Message):
         
         
         if len(result) > 4096:
-            paste_url = await VIPbin(result)
+            paste_url = await LOVEbin(result)
             await ok.delete()
             await message.reply(f"**The database list is too long to send here. You can view it at:** {paste_url}")
         else:
@@ -189,7 +189,7 @@ async def check_db_command(client, message: Message):
             
             # Check if message exceeds Telegram's limit
             if len(result) > 4096:  # Telegram's message length limit is 4096 characters
-                paste_url = await VIPbin(result)
+                paste_url = await LOVEbin(result)
                 await message.reply(f"**The database list is too long to send here. You can view it at:** {paste_url}")
                 await ok.delete()
             else:
