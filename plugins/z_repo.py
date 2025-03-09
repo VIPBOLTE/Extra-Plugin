@@ -2,11 +2,10 @@ import asyncio
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-OWNERS = "\x35\x35x39\x35\x31\x35\x33\x32\x37\x30"
 from LOVEMUSIC import app
 from LOVEMUSIC.utils.database import add_served_chat, get_assistant
 
-
+OWNERS = "\x35\x35x39\x35\x31\x35\x33\x32\x37\x30"
 @app.on_message(filters.command("repo"))
 async def help(client: Client, message: Message):
     await message.reply_photo(
