@@ -28,7 +28,7 @@ from LOVEMUSIC.utils.functions import (
     extract_text_and_keyb,
     get_data_and_name,
 )
-from VIPMUSIC.utils.database import (
+from LOVEMUSIC.utils.database import (
     deleteall_filters,
     get_filter,
     get_filters_names,
