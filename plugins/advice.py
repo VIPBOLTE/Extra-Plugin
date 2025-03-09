@@ -1,5 +1,5 @@
 from pyrogram import filters
-from TheApi import api
+from TheAPI import api
 
 from config import LOG_GROUP_ID
 from LOVEMUSIC import app
